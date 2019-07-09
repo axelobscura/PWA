@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`expect to render the Card Component 1`] = `
+exports[`expect to render the CounterButton Component 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <CounterButton />,
@@ -22,6 +22,7 @@ ShallowWrapper {
         "Count: ",
         0,
       ],
+      "id": "counter",
       "onClick": [Function],
     },
     "ref": null,
@@ -41,6 +42,7 @@ ShallowWrapper {
           "Count: ",
           0,
         ],
+        "id": "counter",
         "onClick": [Function],
       },
       "ref": null,

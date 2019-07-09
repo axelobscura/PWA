@@ -18,7 +18,10 @@ class CounterButton extends Component {
   render(){
     console.log('counter');
     return(
-      <button onClick={() => this.setState(state => ({count: state.count + 1}))}>
+      <button 
+        id='counter'
+        onClick={() => this.setState(state => ({count: state.count + 1}))}
+      >
         Count: {this.state.count}
       </button>
     )
